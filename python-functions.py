@@ -10,4 +10,5 @@ print(sum_to(10))
 def largest(list):
   return max(list)
 
-print(largest([1, 3, 5, 6, 8]))
+print(largest([1, 3, 4, 0]))
+print(largest([10, 4, 2, 231, 91, 54]))
