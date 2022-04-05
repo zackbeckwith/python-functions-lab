@@ -12,3 +12,15 @@ def largest(list):
 
 print(largest([1, 3, 4, 0]))
 print(largest([10, 4, 2, 231, 91, 54]))
+
+#Challenge 3
+
+def occurrences(str1, str2):
+  return str1.count(str2)
+
+print(occurrences('fleep floop', 'e')) 
+print(occurrences('fleep floop', 'p')) 
+print(occurrences('fleep floop', 'ee')) 
+print(occurrences('fleep floop', 'fe'))
+
+#Challenge 4
